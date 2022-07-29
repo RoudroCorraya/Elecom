@@ -227,7 +227,15 @@ body{
 #meet_part .items button{
     width: 200px;
 }
-/*==============meet_part  end==============*/
+/* ==============meet_part  end============== */
+
+
+/* ==============frequently_part  start============== */
+#frequently_part{
+    width: 100%;
+    margin-top: 100px;
+}
+/* ==============frequently_part  end============== */
 
 
 /*==============company_part  start==============*/
