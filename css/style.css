@@ -151,7 +151,7 @@ body{
 #ready_part{
     width: 100%;
     margin-top: 100px;
-    margin-bottom: 400px;
+    
 }
 
 #ready_part .ready_items{
@@ -186,6 +186,45 @@ body{
     margin-top: 20px;
 }
 /*==============ready_part end==============*/
+
+
+/*==============meet_part  start==============*/
+#meet_part{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+#meet_part .title{
+    text-align: left;
+}
+#meet_part .title h1{
+    padding-left: 0;
+    width: 626px;
+    font-size: 40px;
+}
+#meet_part .title p{
+    padding-left: 0;
+    width: 740px;
+    
+}
+#meet_part .items{
+    width: 100%;
+}
+#meet_part .items .img img{
+    width: 100%;
+}
+#meet_part .items .text{
+    border: 2px solid #f1f1f1;
+}
+#meet_part .items .text h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#meet_part .items .text p{
+   
+    margin-left: 20px;
+}
+/*==============meet_part  end==============*/
 
 
 
