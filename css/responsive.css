@@ -1,381 +1,177 @@
-@media only screen and (max-width:700px){
+@media only screen and (max-width:576px){
 
 
     #banner_part{
+        width: auto;
+        margin-top: 50px;
+    }
+    .container{
+        width: auto;
+    }
+    #discover_part{
+        width: auto;
+        margin-top: 50px;
+    }
+    .title h1{
+        padding: 0;
+        width: auto;
+        font-size: 30px;
+    }
+    .title p{
+        padding: 0;
+        width: auto;
+        font-size: 14px;
+    }
+    #discover_part .item{
+        display: block;
+    }
+    #discover_part .item .img{
         width: 100%;
-        overflow-x: hidden;
     }
-    #banner_part .banner_item{
-        width: 100%;
-        padding-bottom: 0;
-        padding-top: 50px;
-        overflow-x: hidden;
+    #discover_part .item .img img{
+        height: 200px;
     }
-    #banner_part .banner_item .text h1{
-        font-size: 40px;
-        width: 320px;
-        padding: 0 30px;
+    #discover_part button{
+        offset: 0;
     }
-    #banner_part .banner_item .text p{
+    /* explore_part */
+    #explore_part{
+        margin-top: 50px;
+    }
+    #explore_part .text h3{
+        margin-left: 0;
         
-        width: 280px;
-        padding: 0 30px;
     }
-    #banner_part .banner_item .img img{
-        width: 25%;
-        margin-top: 25px;
+    #explore_part .text p{
+        margin-left: 0;
+        width: auto;
+    }
+    #explore_part .text ul{
+        text-align: center;
     }
 
-/*==============transfer_part ==============*/
-    #transfer_part .item{
-        display: block;
+    /* ready_part */
+    #ready_part{
+        width: auto;
     }
-    #transfer_part .item .upcuming_part{
-        height: 88px;
-        display: flex;
-        padding: 26px 0;
-        width: 316px;
+    #ready_part .item h2{
+        padding-left: 10px;
     }
-    #transfer_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
+    #ready_part .item p{
+        padding-left: 10px;
+        width: auto;
     }
-    #transfer_part .item .upcuming_part button a{
+    #ready_part .item{
+        padding: 20px 0;
+    }
+    /* meet_part */
+    #meet_part .title h1{
+        width: auto;
+    }
+    #meet_part .title p{
+        width: auto;
+    }
+    #meet_part .items{
+        margin-bottom: 10px;
+    }
+    /* frequently_part */
+    #frequently_part{
+        width: auto;
+        
+    }
+    #frequently_part .offset-2{
+        margin-left: 0;
+    }
+    /* company_part */
+    #company_part{
+        overflow: ;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+
+    #banner_part{
+        width: auto;
+        margin-top: 50px;
+    }
+    .container{
+        width: auto;
+    }
+    #discover_part{
+        width: auto;
+        margin-top: 50px;
+    }
+    .title h1{
+        padding: 0;
+        width: auto;
+        font-size: 30px;
+    }
+    .title p{
+        padding: 0;
+        width: auto;
         font-size: 14px;
     }
-    #transfer_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
+    #discover_part .item{
+        
     }
-    #transfer_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
+    #discover_part .item .img{
+        width: 70%;
     }
-    
-/*==============upcoming_part_part ==============*/
-    #upcoming_part .item{
-        display: block;
+    #discover_part .item .img img{
+        height: 200px;
     }
-    #upcoming_part .item .upcuming_part{
-        height: 88px;
-        display: flex;
-        padding: 26px 0;
-        width: 316px;
+    #discover_part button{
+        offset: 0;
     }
-    #upcoming_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
+    /* explore_part */
+    #explore_part{
+        margin-top: 50px;
     }
-    #upcoming_part .item .upcuming_part button a{
-        font-size: 14px;
+    #explore_part .text h3{
+        margin-left: 0;
+        
     }
-    #upcoming_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
+    #explore_part .text p{
+        margin-left: 0;
+        width: auto;
     }
-    #upcoming_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
+    #explore_part .text ul{
+        text-align: center;
     }
-/*==================footer_part==============*/
-    #footer_part .text{
-        width: 320px;
+
+    /* ready_part */
+    #ready_part{
+        width: auto;
+        
     }
-    #footer_part .text li{
-        display: block;
-        padding: 10px 20px;
+    #ready_part .item h2{
+        padding-left: 10px;
+        text-align: center;
+    }
+    #ready_part .item p{
+        padding-left: 10px;
+        width: auto;
+        text-align: center;
+    }
+    #ready_part .item{
+        padding: 20px 0;
+    }
+    #ready_part .item button{
+        margin-left: 40%;
     }
   
-}
-
-@media(min-width:576px) and (max-width:767px){
-
-    #banner_part{
-    
-    }
-    #banner_part .banner_item{
-        width: 50%;
+   
+    /* frequently_part */
+    #frequently_part{
+        width: auto;
         
     }
-    #banner_part .banner_item .text h1{
-        width: 100%;
-        font-size: 35px;
-        margin-left: -20px;
-        margin-top: -60px;
+    #frequently_part .offset-2{
+        margin-left: 0;
     }
-    #banner_part .banner_item .text p{
-        
-        width: 100%;
-        padding: 0 30px;
-    }
-    #banner_part .banner_item .img img{
-        width: 90%;
-        margin-top: -59px;
-        height: 128%;
-    }
-    #banner_part .banner_item .text a{
-        margin-left: 30px;
-    }
-    
-/*==============transfer_part ==============*/
-    #transfer_part .item{
-       display: block;
-    }
-    #transfer_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 570px;
-    }
-    #transfer_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #transfer_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #transfer_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #transfer_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 10px;
-    }
-    
-/*==============tupcoming_part ==============*/
-    #upcoming_part .item{
-       display: block;
-    }
-    #upcoming_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 570px;
-    }
-    #upcoming_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #upcoming_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #upcoming_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #upcoming_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 10px;
-    }
-/*==================footer_part==============*/
-    #footer_part .text{
-        width: 570px;
-    }
-    #footer_part .text li{
-        
-        padding: 10px 20px;
-    }
-  
-    
-}
-
-@media(min-width:768px) and (max-width:991px){
-
-    #banner_part{
-    
-    }
-    #banner_part .banner_item{
-        width: 67%;
-        
-    }
-    #banner_part .banner_item .text h1{
-        width: 100%;
-        font-size: 35px;
-        margin-left: -20px;
-        margin-top: -60px;
-    }
-    #banner_part .banner_item .text p{
-        
-        width: 100%;
-        padding: 0 30px;
-    }
-    #banner_part .banner_item .img img{
-        width: 90%;
-        margin-top: -59px;
-        height: 128%;
-    }
-    #banner_part .banner_item .text a{
-        margin-left: 30px;
-    }
-    
-/*==============transfer_part ==============*/
-    #transfer_part .item{
-       display: block;
-    }
-    #transfer_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 760px;
-    }
-    #transfer_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #transfer_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #transfer_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #transfer_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 105px;
-    }
-    
-/*==============transfer_part ==============*/
-    #upcoming_part .item{
-       display: block;
-    }
-    #upcoming_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 760px;
-    }
-    #upcoming_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #upcoming_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #upcoming_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #upcoming_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 105px;
-    }
-/*==================footer_part==============*/
-    #footer_part .text{
-        width: 760px;
-    }
-    #footer_part .text li{
-        
-        padding: 10px 20px;
-    }
-}
-
-@media(min-width:991px) and (max-width:1199px){
-
-    #banner_part{
-    
-    }
-    #banner_part .banner_item{
-        width: 86%;
-        
-    }
-    #banner_part .banner_item .text h1{
-        width: 100%;
-        font-size: 35px;
-        margin-left: -20px;
-        margin-top: -60px;
-    }
-    #banner_part .banner_item .text p{
-        
-        width: 100%;
-        padding: 0 30px;
-    }
-    #banner_part .banner_item .img img{
-        width: 90%;
-        margin-top: -59px;
-        height: 128%;
-    }
-    #banner_part .banner_item .text a{
-        margin-left: 30px;
-    }
-    
-/*==============transfer_part ==============*/
-    #transfer_part .item{
-       display: block;
-    }
-    #transfer_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 960px;
-    }
-    #transfer_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #transfer_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #transfer_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #transfer_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 205px;
-    }
-    
-    /*==============upcoming_part_part ==============*/
-    #upcoming_part .item{
-       display: block;
-    }
-    #upcoming_part .item .upcuming_part{
-        height: 80px;
-        display: flex;
-        padding: 26px 0;
-        width: 960px;
-    }
-    #upcoming_part .item .upcuming_part button{
-        margin-top: 13px;
-        width: 33%;
-        margin-right: 10px;
-    }
-    #upcoming_part .item .upcuming_part button a{
-        font-size: 14px;
-    }
-    #upcoming_part .item .transfer_live{
-        display: block;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-    #upcoming_part .item .transfer_live .live_item{
-        margin-bottom: 20px;
-        width: 500px;
-        margin-left: 205px;
-    }
-/*==================footer_part==============*/
-    #footer_part .text{
-        width: 990px;
-    }
-    #footer_part .text li{
-        
-        padding: 10px 20px;
+    /* company_part */
+    #company_part{
+        overflow: ;
     }
 }
